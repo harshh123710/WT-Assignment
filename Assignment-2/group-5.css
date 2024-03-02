@@ -1,0 +1,39 @@
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-aliceblue-100);
+  width: 100px;
+  height: 100px;
+}
+.primary {
+  left: 100px;
+  background-color: var(--color-darkslateblue-100);
+}
+.error,
+.group-child,
+.primary,
+.success {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100px;
+}
+.error {
+  left: 200px;
+  background-color: #dc3545;
+}
+.group-child,
+.success {
+  left: 300px;
+  background-color: var(--color-seagreen);
+}
+.group-child {
+  left: 400px;
+  background-color: var(--color-mediumslateblue-200);
+}
+.background-parent {
+  width: 100%;
+  position: relative;
+  height: 100px;
+}
